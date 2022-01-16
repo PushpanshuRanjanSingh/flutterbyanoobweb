@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/firebase.js" type="module"></script>
+    <title>Flutter By a Noob</title>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/fban_solid.png" class="clipLogo" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+
+    </nav>
+ 
+
+    <div class="max-width-1 m-auto"><hr></div>
+    <div class="home-articles max-width-1 m-auto font2">
+        
+        <h2>Search Results for Django</h2>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/11.svg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                
+                <span>Author Name</span>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>         
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; pushpanshu.com </p>
+    </div>
+    <!--Firebase Libraries-->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script> 
+</body>
+</html>
